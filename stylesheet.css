@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lobster');
 body {
 margin: 0;
 padding: 0;
@@ -12,6 +12,14 @@ padding: 0;
    background-size: cover;
    background-image: url("images/clouds.jpg");
 }
+.forest {
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/forest-background.jpg");
+}
 
 .scrolling-background {
   height: 1000px;
@@ -23,16 +31,38 @@ padding: 0;
   position: absolute;
   font-size: 100px;
   font-family: 'Lobster', cursive;
-  left: 50%;
+  left: 40%;
   top: 200px;
   z-index: 1;
 }
 
-.navbar {
+.link {
 position: relative;
-top: -1000px;
 float: right;
+top: -1000px;
 font-size: 30px;
 margin-top: 50px;
 margin-right: 100px;
+color: black;
+text-decoration: none;
+}
+
+.link:hover{
+  border-bottom: 5px solid #0b47a8;
+}
+
+#profile-picture {
+  height: 400px;
+  width: 400px;
+  padding: 100px;
+  left: 0;
+}
+
+.description {
+  position: absolute;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 50px;
+  width: 500px;
+  top: 190%;
+  left: 50%;
 }
