@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+margin: 0;
+padding: 0;
+}
+
+.page-wrapper {
+   min-height: 1000px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("images/clouds.jpg");
+}
+
+.scrolling-background {
+  height: 1000px;
+  background: url("images/background.jpg");
+  font-size: 36px;
+}
+
+.title {
+  position: absolute;
+  font-size: 100px;
+  font-family: 'Lobster', cursive;
+  left: 50%;
+  top: 200px;
+  z-index: 1;
+}
+
+.navbar {
+position: relative;
+top: -1000px;
+float: right;
+font-size: 30px;
+margin-top: 50px;
+margin-right: 100px;
+}
