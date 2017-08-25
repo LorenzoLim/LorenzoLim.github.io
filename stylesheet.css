@@ -230,6 +230,13 @@ font-family: 'Raleway', sans-serif;
   left: 0;
 }
 
+.contact-picture {
+  margin-top: 200px;
+  margin-left: 100px;
+  height: 400px;
+  width: 400px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -254,7 +261,8 @@ li a{
 .contact-form {
   position: absolute;
   padding: 20px;
-  margin: -400px 100px 100px 100px;
+  margin: -410px 50px 100px 200px;
+  width: 50%;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   right: 0px;
@@ -264,20 +272,36 @@ li a{
 .input-styling {
   float: right;
   margin-left: 30px;
-  width: 50%;
-  left: 0px;
-}
-
-.textarea {
-  width: 50%;
-  height: 150px;
-  padding: 12px 20px;
+  width: 70%;
   box-sizing: border-box;
+  left: 0px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
-  font-size: 16px;
   resize: none;
+}
+
+.textarea {
+  position: relative;
+  top: 10px;
+  height: 80px;
+  margin-bottom: 58px;
+}
+
+.btn {
+  position: absolute;
+  top: 342px;
+  right: 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .description {
