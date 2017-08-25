@@ -6,102 +6,63 @@ padding: 0;
 
 @keyframes spin {100%{
   -webkit-transform: rotateY(360deg);
-  transform: rotateY(360%);}
+  transform: rotateY(360%); }
 }
+
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
 
-  to {
-    opacity: 1;
-    transform: none;
-  }
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translate3d(0, -100%, 0); }
+  to { opacity: 1; transform: none; }
 }
 
 @keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
+  from { opacity: 0; transform: scale3d(.3, .3, .3); }
+  50% { opacity: 1; }
 }
 
 @keyframes zoomInUp {
-  from {
-    opacity: 0;
+  from { opacity: 0;
     transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
-    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  }
-
-  60% {
-    opacity: 1;
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190); }
+  60% { opacity: 1;
     transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
-    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-  }
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1); }
 }
 
 @keyframes slideInLeft {
-  from {
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    transform: translate3d(0, 0, 0);
-  }
+  from { transform: translate3d(-100%, 0, 0); visibility: visible; }
+  to { transform: translate3d(0, 0, 0); }
 }
 
 @keyframes flipInX {
-  from {
-    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    animation-timing-function: ease-in;
-    opacity: 0;
+  from { transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in; opacity: 0;
   }
-
-  40% {
-    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    animation-timing-function: ease-in;
+  40% { transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        animation-timing-function: ease-in;
   }
-
-  60% {
-    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    opacity: 1;
+  60% { transform: perspective(400px) rotate3d(1, 0, 0, 10deg); opacity: 1;
   }
-
-  80% {
-    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  80% { transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
   }
-
-  to {
-    transform: perspective(400px);
+  to { transform: perspective(400px);
   }
 }
 
 @keyframes pulse {
-  from {
-    transform: scale3d(1, 1, 1);
+  from { transform: scale3d(1, 1, 1);
   }
-
-  50% {
-    transform: scale3d(1.05, 1.05, 1.05);
+  50% { transform: scale3d(1.05, 1.05, 1.05);
   }
-
-  to {
-    transform: scale3d(1, 1, 1);
+  to { transform: scale3d(1, 1, 1);
   }
 }
 
 .page-wrapper {
-   background-image: url("images/clouds.jpg");
    min-height: 1000px;
    background-attachment: fixed;
    background-position: center;
@@ -109,58 +70,53 @@ padding: 0;
    background-size: cover;
 }
 
-.contact-wrapper {
-   min-height: 1000px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-image: url("images/brickwall.jpg");
+.content-wrapper{
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 36px;
 }
 
-.about-wrapper {
-   min-height: 1000px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-image: url("images/wood-planks.jpg");
+#home-wrapper{
+  background-image: url("images/clouds.jpg");
 }
 
-.projects-wrapper {
-   min-height: 1000px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-image: url("images/windmill.jpg");
+#forest-wrapper{
+  background-image: url("images/forest-background.jpg");
 }
 
-.history-wrapper {
-   min-height: 1000px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-image: url("images/train.jpg");
+#contact-wrapper{
+  background-image: url("images/brickwall.jpg");
 }
 
-.skills-wrapper {
-   min-height: 1000px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-image: url("images/computer.jpg");
+#blog-wrapper{
+  background-image: url("images/crystal.jpg");
 }
 
-.jobs-wrapper {
-   min-height: 1000px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-image: url("images/river.jpg");
+#about-wrapper{
+  background-image: url("images/wood-planks.jpg");
+}
+
+#projects-wrapper{
+  background-image: url("images/windmill.jpg");
+}
+
+#history-wrapper{
+  background-image: url("images/train.jpg");
+}
+
+#skills-wrapper{
+  background-image: url("images/computer.jpg");
+}
+
+#jobs-wrapper{
+  background-image: url("images/river.jpg");
+}
+
+#wood-wrapper{
+  background-image: url("images/background.jpg");
 }
 
 .about-title {
@@ -196,25 +152,6 @@ padding: 0;
   display: block;
 }
 
-.forest {
-  min-height: 800px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("images/forest-background.jpg");
-}
-
-.scrolling-background {
-  min-height: 800px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("images/background.jpg");
-  font-size: 36px;
-}
-
 .title {
   position: absolute;
   font-size: 100px;
@@ -239,16 +176,7 @@ padding: 0;
 
 .blog-scrolling-background {
   background-color: white;
-  font-size: 36px;
-}
-
-.blog-background {
-  min-height: 1000px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("images/crystal.jpg");
+  font-size: 36px;0
 }
 
 .blog-content {
@@ -323,6 +251,27 @@ font-family: 'Raleway', sans-serif;
   left: 0;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position absolute;
+}
+
+li {
+  display: inline-block;
+  float: right;
+}
+
+li a{
+  display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
 .contact-details {
   position: absolute;
   font-family: 'Raleway', sans-serif;
@@ -346,108 +295,24 @@ font-family: 'Raleway', sans-serif;
   opacity: 0.5;
 }
 
-.more-info {
-  position: absolute;
+#jobs-info-spacing{
   margin-left: 10%;
-  margin-top: 300px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  font-size: 50px;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  opacity: 0.9;
-  background: #000
 }
 
-.more-info:hover {
-  transition: all ease-in-out 300ms;
-  -webkit-transform: scale(1.5);
-  /*   -webkit-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-  */
-}
-
-.more-info a{
-  text-decoration: none;
-  color: white;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position absolute;
-}
-
-li {
-  display: inline-block;
-  float: right;
-}
-
-li a{
-  display:block;
-    min-width:140px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-}
-
-.more-info2 {
-  position: absolute;
+#skills-info-spacing{
   margin-left: 32%;
-  margin-top: 300px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  font-size: 50px;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  opacity: 0.9;
-  background: #000
 }
 
-.more-info2:hover {
-  transition: all ease-in-out 300ms;
-  -webkit-transform: scale(1.5);
-}
-
-.more-info2 a{
-  text-decoration: none;
-  color: white;
-}
-
-.more-info3 {
-  position: absolute;
+#history-info-spacing{
   margin-left: 54%;
-  margin-top: 300px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  font-size: 50px;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  opacity: 0.9;
-  background: #000
 }
 
-.more-info3:hover {
-  transition: all ease-in-out 300ms;
-  -webkit-transform: scale(1.5);
-}
-
-.more-info3 a{
-  text-decoration: none;
-  color: white;
-}
-
-.more-info4 {
-  position: absolute;
+#projects-info-spacing{
   margin-left: 76%;
+}
+
+.info {
+  position: absolute;
   margin-top: 300px;
   width: 200px;
   height: 200px;
@@ -460,12 +325,12 @@ li a{
   background: #000
 }
 
-.more-info4:hover {
+.info:hover {
   transition: all ease-in-out 300ms;
   -webkit-transform: scale(1.5);
 }
 
-.more-info4 a{
+.info a{
   text-decoration: none;
   color: white;
 }
