@@ -295,6 +295,9 @@ li a{
   position: absolute;
   top: 342px;
   right: 20px;
+}
+
+.form-btn {
   background-color: #4CAF50;
   border: none;
   color: white;
