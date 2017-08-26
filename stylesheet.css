@@ -80,12 +80,27 @@ padding: 0;
 }
 
 .cntr-panel {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
   position: relative;
   top: -40px;
   height: 1000px;
   background-color: #2c3747;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.inner-panel{
+  margin: 40px;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+}
+
+#panel1{
+
 }
 
 #home-wrapper{
