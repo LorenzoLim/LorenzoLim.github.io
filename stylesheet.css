@@ -81,82 +81,83 @@ padding: 0;
 
 .cntr-panel {
   display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 2;
+  grid-template-columns: repeat (2,50%);
+  grid-template-rows: (2,50%);
   position: relative;
   top: -40px;
   height: 1000px;
   background-color: #2c3747;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
-.inner-panel{
+.inner-panel {
   margin: 40px;
   position: relative;
-  height: 100px;
-  width: 100px;
   background-color: blue;
 }
 
-#panel-1{
-  position: absolute;
-  right: 0px;
+#panel-1 {
+  grid-column: 1;
+  width: 100px;
+  height: 100px;
 }
 
-#panel-2{
-  position: absolute;
-  top: 500px;
-  right: 0px;
+#panel-2 {
+  grid-column: 2;
+  width: 100px;
+  height: 100px;
 }
 
-#panel-3{
-  position: relative;
-  float: right;
+#panel-3 {
+  grid-column: 1;
+  width: 100px;
+  height: 100px;
 }
 
-#panel-4{
-  position: relative;
-  float: right;
+#panel-4 {
+  grid-column: 2;
+  width: 100px;
+  height: 100px;
 }
 
-#home-wrapper{
+#home-wrapper {
   background-image: url("images/clouds.jpg");
 }
 
-#forest-wrapper{
+#forest-wrapper {
   background-image: url("images/forest-background.jpg");
 }
 
-#contact-wrapper{
+#contact-wrapper {
   background-image: url("images/brickwall.jpg");
 }
 
-#blog-wrapper{
+#blog-wrapper {
   background-image: url("images/crystal.jpg");
 }
 
-#about-wrapper{
+#about-wrapper {
   background-image: url("images/wood-planks.jpg");
 }
 
-#projects-wrapper{
+#projects-wrapper {
   background-image: url("images/windmill.jpg");
 }
 
-#history-wrapper{
+#history-wrapper {
   background-image: url("images/train.jpg");
 }
 
-#skills-wrapper{
+#skills-wrapper {
   background-image: url("images/computer.jpg");
 }
 
-#jobs-wrapper{
+#jobs-wrapper {
   background-image: url("images/river.jpg");
 }
 
-#wood-wrapper{
+#wood-wrapper {
   background-image: url("images/background.jpg");
 }
 
