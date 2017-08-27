@@ -93,14 +93,31 @@ padding: 0;
 
 .inner-panel{
   margin: 40px;
-  position: absolute;
-  height: 400px;
-  width: 400px;
+  position: relative;
+  height: 100px;
+  width: 100px;
   background-color: blue;
 }
 
-#panel1{
+#panel-1{
+  position: absolute;
+  right: 0px;
+}
 
+#panel-2{
+  position: absolute;
+  top: 500px;
+  right: 0px;
+}
+
+#panel-3{
+  position: relative;
+  float: right;
+}
+
+#panel-4{
+  position: relative;
+  float: right;
 }
 
 #home-wrapper{
