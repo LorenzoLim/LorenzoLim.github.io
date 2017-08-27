@@ -63,7 +63,7 @@ padding: 0;
 }
 
 .page-wrapper {
-   min-height: 1000px;
+   height: 1040px;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
