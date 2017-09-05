@@ -314,6 +314,7 @@ font-family: 'Raleway', sans-serif;
     height: 400px;
   }
   .title {
+    left: 0;
     top: 60px;
   }
 }
