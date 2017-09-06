@@ -264,7 +264,7 @@ font-family: 'Raleway', sans-serif;
 .img-links {
   width: 100%;
   height: 100%;
-  padding: 80px;
+  padding: 40px;
 }
 
 #nav {
@@ -310,6 +310,13 @@ font-family: 'Raleway', sans-serif;
     margin-right: 20px;
     height: 440px;
   }
+
+  #connect-wrapper{
+    display: none;
+  }
+  #wood-wrapper{
+    display: none;
+  }
   #nav {
     position: fixed;
     display: none;
@@ -336,7 +343,8 @@ font-family: 'Raleway', sans-serif;
   }
   .title {
     left: 10px;
-    top: 60px;
+    font-size: 60px;
+    top: 140px;
   }
 }
 
