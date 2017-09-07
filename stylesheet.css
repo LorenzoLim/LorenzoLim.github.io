@@ -353,6 +353,9 @@ font-family: 'Raleway', sans-serif;
   footer .row {
     flex-wrap: nowrap;
   }
+  .footer-links {
+    padding: 2px;
+  }
 
   #nav {
     position: fixed;
