@@ -172,6 +172,7 @@ padding: 0;
 
 #wood-wrapper {
   background-image: url("images/background.jpg");
+  height: auto;
 }
 
 #L {
@@ -258,7 +259,7 @@ position: relative;
 float: right;
 font-size: 25px;
 margin-top: -5px;
-margin-right: 80px;
+margin-right: 60px;
 color: black;
 text-decoration: none;
 font-family: 'Raleway', sans-serif;
@@ -361,11 +362,34 @@ font-family: 'Raleway', sans-serif;
   height: auto;
 }
 
+@media screen and (max-width : 768px){
+  .img-ability {
+    padding: 10px 2px 30px 2px;
+  }
+
+  #contact-pic {
+    height: 500px;
+  }
+
+  #contact-bg {
+    font-size: 20px;
+    height: 90%;
+  }
+}
+
 @media screen and (max-width : 760px){
   .cntr-panel {
     margin-left: 20px;
     margin-right: 20px;
     height: 440px;
+  }
+
+  #contact-pic {
+    height: 600px;
+  }
+
+  #contact-bg {
+    font-size: 20px;
   }
 
   #nav-style{
@@ -473,12 +497,22 @@ font-family: 'Raleway', sans-serif;
 }
 
 .contact-picture {
-  margin-top: 200px;
-  margin-left: 100px;
-  height: 400px;
-  width: 400px;
+  padding-top: 50px;
+  height: 700px;
+  width: 100%;
 }
 
+.contact-background {
+  margin-top: 50px;
+  padding: 10px;
+  height: 93%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
 #navbar ul {
   list-style-type:none;
@@ -505,8 +539,9 @@ font-family: 'Raleway', sans-serif;
 .contact-form {
   position: absolute;
   padding: 20px;
-  margin: -410px 50px 100px 200px;
-  width: 50%;
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   right: 0px;
