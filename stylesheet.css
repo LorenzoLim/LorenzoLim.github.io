@@ -333,14 +333,14 @@ font-family: 'Raleway', sans-serif;
 #nav.shrink {
   height: 60px;
   transition: all ease .5s;
-  background: rgba(0, 0, 0, 0.7);// Change background to black on scroll
+  background: rgba(255, 255, 255, 0.7);// Change background to black on scroll
 }
 
 #nav.shrink .logo {
   padding: 10px;
   font-size: 25px;
   transition: all ease .5s;
-  color: white;
+  color: black;
 }
 
 .logo {
@@ -383,6 +383,7 @@ font-family: 'Raleway', sans-serif;
   #contact-bg {
     font-size: 20px;
     height: 90%;
+    color: black;
   }
 }
 
@@ -399,10 +400,7 @@ font-family: 'Raleway', sans-serif;
 
   #contact-bg {
     font-size: 20px;
-  }
-
-  #nav-style{
-    color: white;
+    color: black;
   }
 
   .my-abilities .row{
@@ -507,20 +505,20 @@ font-family: 'Raleway', sans-serif;
 
 .contact-picture {
   padding-top: 50px;
-  height: 700px;
+  height: 600px;
   width: 100%;
 }
 
 .contact-background {
   margin-top: 50px;
   padding: 10px;
-  height: 93%;
+  height: 92%;
   width: 100%;
   text-align: center;
   position: relative;
   font-size: 40px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 #navbar ul {
