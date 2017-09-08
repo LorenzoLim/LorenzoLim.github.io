@@ -68,7 +68,7 @@ padding: 0;
 .page-wrapper {
    height: 900px;
    background-attachment: fixed;
-   background-position: center;
+   background-position: top;
    background-repeat: no-repeat;
    background-size: cover;
 }

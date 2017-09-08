@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+	if(navigator.userAgent.match(/Trident\/7\./)) { // if IE
+	        $('body').on("mousewheel", function () {
+	            // remove default behavior
+	            event.preventDefault();
+
+	            //scroll without smoothing
+	            var wheelDelta = event.wheelDelta;
+	            var currentScrollPosition = window.pageYOffset;
+	            window.scrollTo(0, currentScrollPosition - wheelDelta);
+	        });
+	}
+
 	// Opera 8.0+
 	var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
 
