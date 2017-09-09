@@ -74,7 +74,7 @@ padding: 0;
 }
 
 .content-wrapper {
-  min-height: 800px;
+  min-height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -365,7 +365,16 @@ font-family: 'Raleway', sans-serif;
 #connect-wrapper {
   height: 806px;
 }
-
+@media screen and (max-width : 1024px){
+  #contact-pic {
+    height: 500px;
+  }
+  #contact-bg {
+    font-size: 20px;
+    height: 90%;
+    color: black;
+  }
+}
 @media screen and (max-width : 768px){
   .img-ability {
     padding: 10px 2px 30px 2px;
@@ -379,10 +388,6 @@ font-family: 'Raleway', sans-serif;
     font-size: 20px;
     height: 87%;
     color: black;
-  }
-
-  #wood-wrapper {
-
   }
 }
 
