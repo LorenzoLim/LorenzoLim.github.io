@@ -73,8 +73,12 @@ padding: 0;
    background-size: cover;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 .content-wrapper {
-  min-height: 700px;
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -365,6 +369,40 @@ font-family: 'Raleway', sans-serif;
 #connect-wrapper {
   height: 806px;
 }
+
+.sidebar-nav{
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+  list-style-type:none;
+	margin:0;
+	position: absolute;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sidebar-nav li{
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  border-bottom: 1px solid #0b47a8;
+}
+
+.sidebar-nav-links a{
+  color: black;
+}
+
+.sidebar-nav-links a:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.text-description{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 @media screen and (max-width : 1024px){
   #contact-pic {
     height: 500px;
