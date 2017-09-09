@@ -380,6 +380,10 @@ font-family: 'Raleway', sans-serif;
     height: 87%;
     color: black;
   }
+
+  #wood-wrapper {
+
+  }
 }
 
 @media screen and (max-width : 760px){
