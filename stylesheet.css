@@ -372,7 +372,9 @@ font-family: 'Raleway', sans-serif;
 
 .sidebar-nav{
   margin: 20px;
-  padding: 10px;
+  height: 1000px;
+  width: 100%;
+  padding: 200px 20px 20px 20px;
   font-size: 25px;
   list-style-type:none;
 	margin:0;
@@ -399,8 +401,14 @@ font-family: 'Raleway', sans-serif;
 
 .text-description{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 200px;
   padding-bottom: 40px;
+}
+
+.text-description-details {
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
 }
 
 @media screen and (max-width : 1024px){
