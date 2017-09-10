@@ -485,6 +485,14 @@ font-family: 'Raleway', sans-serif;
     display: none;
   }
 
+  #side-nav-row {
+    display: none;
+  }
+
+  .footer-hide{
+    display: block;
+  }
+
   .hide{
     display: block;
     position: fixed;
