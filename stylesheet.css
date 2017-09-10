@@ -411,6 +411,15 @@ font-family: 'Raleway', sans-serif;
   font-size: 30px;
 }
 
+.button-link{
+  padding: 20px;
+}
+
+.button-link:hover{
+  text-decoration: none;
+  background-color: rgba(0, 180, 0, 0.6);
+}
+
 @media screen and (max-width : 1024px){
   #contact-pic {
     height: 500px;
