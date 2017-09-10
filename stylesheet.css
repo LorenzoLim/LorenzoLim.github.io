@@ -371,14 +371,12 @@ font-family: 'Raleway', sans-serif;
 }
 
 .sidebar-nav{
-  margin: 20px;
   height: 1000px;
   width: 100%;
-  padding: 200px 20px 20px 20px;
+  padding-top: 200px;
+  padding-left: 10px;
   font-size: 25px;
   list-style-type:none;
-	margin:0;
-	position: absolute;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -418,6 +416,10 @@ font-family: 'Raleway', sans-serif;
 .button-link:hover{
   text-decoration: none;
   background-color: rgba(0, 180, 0, 0.6);
+}
+
+#row-fix {
+  margin-right: 0;
 }
 
 @media screen and (max-width : 1024px){
