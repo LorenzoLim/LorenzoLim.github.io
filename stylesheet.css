@@ -455,7 +455,7 @@ font-family: 'Raleway', sans-serif;
     color: black;
   }
 
-  #row-fix {
+  #row-fix{
     display: none;
   }
 
@@ -465,6 +465,15 @@ font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (max-width : 760px){
+
+  #row-fix {
+    display: none;
+  }
+
+  .hidden-row{
+    display: block;
+  }
+
   .cntr-panel {
     margin-left: 20px;
     margin-right: 20px;
@@ -481,6 +490,7 @@ font-family: 'Raleway', sans-serif;
 
   .hidden-row{
     display: block;
+    margin-right: 0;
   }
 
   #about-side-nav{
