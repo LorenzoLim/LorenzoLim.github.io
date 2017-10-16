@@ -576,7 +576,7 @@ body {
     position: relative;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     margin-right: 35px;
     font-size: 30px;
     color: black;
