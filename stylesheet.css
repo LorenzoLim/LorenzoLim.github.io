@@ -421,7 +421,7 @@ body {
       margin-right: 0;
     }
 
-    .hidden-row{
+    #hidden-row{
       display: none;
     }
 
@@ -458,7 +458,7 @@ body {
         display: none;
       }
 
-      .hidden-row{
+      #hidden-row{
         display: block;
       }
     }
@@ -469,7 +469,7 @@ body {
         display: none;
       }
 
-      .hidden-row{
+      #hidden-row{
         display: block;
       }
 
@@ -487,7 +487,7 @@ body {
         display: none;
       }
 
-      .hidden-row{
+      #hidden-row{
         display: block;
         margin-right: 0;
       }
