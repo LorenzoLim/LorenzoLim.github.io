@@ -1,1 +1,1 @@
-# Coder-Academy
+# This is my online portfolio where I display my HTML5, CSS3, Bootstrap and Javascript skills. I also have my resume and my work on the portfolio as well as my work history and an "About Me" page where you can learn more about me. My portfolio also has links to my other works online and other social media. Come check it out by typing: LorenzoLim.github.io in your browser.
