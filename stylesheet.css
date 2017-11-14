@@ -41,8 +41,16 @@ body {
   letter-spacing: -1px;
 }
 
+.lead{
+  color: white;
+}
+
 .text-muted{
   font-size: 24px;
+}
+
+.home-description{
+  background-color: RGBA(125,38,205,0.9);
 }
 
 .marketing .col-lg-4 {
