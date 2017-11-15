@@ -51,6 +51,7 @@ body {
 
 .home-description{
   background-color: RGBA(104,34,139,0.9);
+  height: 640px;
 }
 
 .marketing .col-lg-4 {
@@ -66,7 +67,7 @@ body {
 }
 
 #home-wrapper {
-  background-image: url("images/clouds.jpg");
+  background-image: url("images/adrian-infernus.jpg");
 }
 
 #forest-wrapper {
@@ -166,8 +167,11 @@ body {
 }
 
 .img-ability {
-  width: 65%;
-  height: 65%;
+  width: 90%;
+  height: 90%;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 80px;
 }
 
 .ability-adjust{
@@ -337,6 +341,11 @@ footer{
     display: block;
   }
 
+  .home-description{
+    background-color: RGBA(104,34,139,0.9);
+    height: 1300px;
+  }
+
   .cntr-panel {
     margin-left: 20px;
     margin-right: 20px;
@@ -367,11 +376,6 @@ footer{
   #contact-bg {
     font-size: 20px;
     color: black;
-  }
-
-  .my-abilities{
-    background-color: RGBA(104,34,139,0.9);
-    z-index: 1;
   }
 
   .my-abilities .row{
