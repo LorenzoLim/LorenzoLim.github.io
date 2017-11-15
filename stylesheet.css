@@ -293,6 +293,11 @@ footer{
   display: none;
 }
 
+.carousel-inner>.item {
+          width: 100%;
+
+}
+
 @media screen and (max-width : 1024px){
   #contact-pic {
     height: 500px;
@@ -343,7 +348,7 @@ footer{
 
   .home-description{
     background-color: RGBA(104,34,139,0.9);
-    height: 1300px;
+    height: 1220px;
   }
 
   .cntr-panel {
