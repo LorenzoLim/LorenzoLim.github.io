@@ -293,9 +293,8 @@ footer{
   display: none;
 }
 
-.carousel-inner>.item {
-          width: 100%;
-
+.img-width{
+  width: 100%;
 }
 
 @media screen and (max-width : 1024px){
