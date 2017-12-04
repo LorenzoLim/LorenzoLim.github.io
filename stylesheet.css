@@ -293,8 +293,20 @@ footer{
   display: none;
 }
 
-.img-width{
+.carousel-inner {
+  height: calc(100vh - 50px);
+}
+.carousel-inner > .item > img {
   width: 100%;
+}
+
+.carousel-text {
+  color: black;
+  font-size: 30px;
+}
+
+#carousel-img-height {
+  height: 650px;
 }
 
 @media screen and (max-width : 1024px){
