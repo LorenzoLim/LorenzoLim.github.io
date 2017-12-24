@@ -189,7 +189,8 @@ footer{
 }
 
 .footer-links:hover {
-  background-color: rgba(44,44,44,0.5);
+  transition: all ease-in-out 300ms;
+  -webkit-transform: scale(1.2);
 }
 
 #nav {
