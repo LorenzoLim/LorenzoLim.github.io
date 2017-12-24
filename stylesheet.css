@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
-  
+
 @keyframes spin {100%{
   -webkit-transform: rotateY(360deg);
   transform: rotateY(360%); }
@@ -179,6 +179,7 @@ body {
 }
 
 footer{
+  height: 320px;
   background-color: RGBA(104,34,139,0.9);
 }
 
